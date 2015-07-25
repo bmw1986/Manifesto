@@ -1,0 +1,708 @@
+
+*** Running xst
+    with args -ifn "test.xst" -ofn "test.srp" -intstyle ise
+
+Reading design: test.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/writequeue/writequeue.v" into library work
+Parsing module <writequeue>.
+Analyzing Verilog file "c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer/linebuffer.v" into library work
+Parsing module <linebuffer>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" into library work
+Parsing entity <boundary_setter>.
+Parsing architecture <Behavioral> of entity <boundary_setter>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_timer.vhd" into library work
+Parsing entity <vga_timer>.
+Parsing architecture <Behavioral> of entity <vga_timer>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/pixel_clk.vhd" into library work
+Parsing entity <pixel_clk>.
+Parsing architecture <Behavioral> of entity <pixel_clk>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/nes_fsm.vhd" into library work
+Parsing entity <nes_fsm>.
+Parsing architecture <arch> of entity <nes_fsm>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" into library work
+Parsing entity <marioPosition>.
+Parsing architecture <arch> of entity <marioposition>.
+WARNING:HDLCompiler:946 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 60: Actual for formal port mxpos is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 61: Actual for formal port mypos is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_gen.vhd" into library work
+Parsing entity <vga_gen>.
+Parsing architecture <Behavioral> of entity <vga_gen>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" into library work
+Parsing entity <ramcontroller>.
+Parsing architecture <Behavioral> of entity <ramcontroller>.
+Parsing VHDL file "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/test.vhd" into library work
+Parsing entity <test>.
+Parsing architecture <Behavioral> of entity <test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <test> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <vga_gen> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <vga_timer> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <pixel_clk> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_gen.vhd" Line 90: pclk should be on the sensitivity list of the process
+
+Elaborating entity <ramcontroller> (architecture <Behavioral>) from library <work>.
+Going to verilog side to elaborate module linebuffer
+
+Elaborating module <linebuffer>.
+WARNING:HDLCompiler:1499 - "c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer/linebuffer.v" Line 39: Empty module <linebuffer> remains a black box.
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module writequeue
+
+Elaborating module <writequeue>.
+WARNING:HDLCompiler:1499 - "c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/writequeue/writequeue.v" Line 39: Empty module <writequeue> remains a black box.
+Back to vhdl to continue elaboration
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 102: yaddr should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 152: outptr should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 218. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 264: init should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 265: offset should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 159: Assignment to waitdelay ignored, since the identifier is never used
+
+Elaborating entity <nes_fsm> (architecture <arch>) from library <work>.
+
+Elaborating entity <marioPosition> (architecture <arch>) from library <work>.
+
+Elaborating entity <boundary_setter> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 60: mxpos should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 65: mypos should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 70: mypos should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 75: mxpos should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 75: px should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 76: py should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/test.vhd" Line 444: writemode should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <test>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/test.vhd".
+WARNING:Xst:647 - Input <btn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <ramoffset>.
+    Found 1-bit register for signal <erase>.
+    Found 1-bit register for signal <writemode>.
+    Found 1-bit register for signal <por>.
+    Found 19-bit register for signal <trash1>.
+    Found 8-bit register for signal <trash2>.
+    Found 10-bit register for signal <xinit>.
+    Found 9-bit register for signal <yinit>.
+    Found 1-bit register for signal <trash3>.
+    Found 9-bit register for signal <ylatch>.
+    Found 9-bit register for signal <yptr>.
+    Found 10-bit register for signal <xlatch>.
+    Found 10-bit register for signal <xptr>.
+    Found 8-bit register for signal <width>.
+    Found 9-bit register for signal <ypos>.
+    Found 10-bit register for signal <xpos>.
+    Found 1-bit register for signal <NESlatch>.
+    Found 1-bit register for signal <latch>.
+    Found 1-bit register for signal <NESpulse>.
+    Found 1-bit register for signal <pulse>.
+    Found 21-bit register for signal <NEScounter>.
+    Found 8-bit register for signal <led>.
+    Found 1-bit register for signal <btnpre<5>>.
+    Found 9-bit adder for signal <yinit[8]_GND_4_o_add_3_OUT> created at line 1241.
+    Found 10-bit adder for signal <xinit[9]_GND_4_o_add_5_OUT> created at line 1241.
+    Found 10-bit adder for signal <xlatch[9]_GND_4_o_add_12_OUT> created at line 419.
+    Found 9-bit adder for signal <ylatch[8]_GND_4_o_add_14_OUT> created at line 420.
+    Found 9-bit adder for signal <yptr[8]_GND_4_o_add_18_OUT> created at line 1241.
+    Found 10-bit adder for signal <xptr[9]_GND_4_o_add_25_OUT> created at line 1241.
+    Found 10-bit adder for signal <xpos[9]_GND_4_o_add_61_OUT> created at line 1241.
+    Found 9-bit adder for signal <ypos[8]_GND_4_o_add_63_OUT> created at line 1241.
+    Found 21-bit adder for signal <NEScounter[20]_GND_4_o_add_108_OUT> created at line 531.
+    Found 9-bit subtractor for signal <GND_4_o_GND_4_o_sub_60_OUT<8:0>> created at line 1308.
+    Found 10-bit subtractor for signal <GND_4_o_GND_4_o_sub_66_OUT<9:0>> created at line 1308.
+    Found 10-bit comparator equal for signal <xptr[9]_xlatch[9]_equal_14_o> created at line 419
+    Found 9-bit comparator equal for signal <yptr[8]_ylatch[8]_equal_16_o> created at line 420
+    Found 21-bit comparator greater for signal <NEScounter[20]_PWR_4_o_LessThan_72_o> created at line 463
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_73_o> created at line 464
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_75_o> created at line 467
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_77_o> created at line 470
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_79_o> created at line 473
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_81_o> created at line 476
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_83_o> created at line 479
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_85_o> created at line 482
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_87_o> created at line 485
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_89_o> created at line 488
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_91_o> created at line 491
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_93_o> created at line 494
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_95_o> created at line 497
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_97_o> created at line 500
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_99_o> created at line 503
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_101_o> created at line 506
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_103_o> created at line 509
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_105_o> created at line 512
+    Found 21-bit comparator greater for signal <NEScounter[20]_GND_4_o_LessThan_107_o> created at line 515
+    Summary:
+	inferred   9 Adder/Subtractor(s).
+	inferred 157 D-type flip-flop(s).
+	inferred  21 Comparator(s).
+	inferred  23 Multiplexer(s).
+Unit <test> synthesized.
+
+Synthesizing Unit <vga_gen>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_gen.vhd".
+    Found 1-bit register for signal <vsync>.
+    Found 8-bit register for signal <colorout>.
+    Found 1-bit register for signal <hsync>.
+    Found 10-bit adder for signal <posX[9]_GND_5_o_add_5_OUT> created at line 97.
+    Found 9-bit adder for signal <posY[8]_GND_5_o_add_8_OUT> created at line 97.
+    Found 10-bit comparator equal for signal <cursorx[9]_xaddrs[9]_equal_3_o> created at line 95
+    Found 9-bit comparator equal for signal <cursory[8]_yaddrs[8]_equal_4_o> created at line 95
+    Found 10-bit comparator lessequal for signal <n0006> created at line 97
+    Found 10-bit comparator lessequal for signal <n0009> created at line 97
+    Found 9-bit comparator lessequal for signal <n0011> created at line 97
+    Found 9-bit comparator lessequal for signal <n0014> created at line 97
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <vga_gen> synthesized.
+
+Synthesizing Unit <vga_timer>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_timer.vhd".
+    Found 1-bit register for signal <hen>.
+    Found 10-bit register for signal <vcnt>.
+    Found 1-bit register for signal <ven>.
+    Found 1-bit register for signal <hsync>.
+    Found 1-bit register for signal <vsync>.
+    Found 1-bit register for signal <blank>.
+    Found 10-bit register for signal <xaddr>.
+    Found 9-bit register for signal <yaddr>.
+    Found 10-bit register for signal <hcnt>.
+    Found 10-bit adder for signal <hcnt[9]_GND_6_o_add_1_OUT> created at line 56.
+    Found 10-bit adder for signal <vcnt[9]_GND_6_o_add_4_OUT> created at line 67.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  44 D-type flip-flop(s).
+Unit <vga_timer> synthesized.
+
+Synthesizing Unit <pixel_clk>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/pixel_clk.vhd".
+    Found 1-bit register for signal <pclk>.
+    Found 2-bit register for signal <counter>.
+    Found 2-bit adder for signal <counter[1]_GND_7_o_add_1_OUT> created at line 53.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <pixel_clk> synthesized.
+
+Synthesizing Unit <ramcontroller>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd".
+    Found 1-bit register for signal <crclk>.
+    Found 1-bit register for signal <qwea>.
+    Found 36-bit register for signal <queue>.
+    Found 10-bit register for signal <inptr>.
+    Found 1-bit register for signal <readhold>.
+    Found 1-bit register for signal <writedone>.
+    Found 1-bit register for signal <cre>.
+    Found 1-bit register for signal <ce>.
+    Found 14-bit register for signal <init>.
+    Found 1-bit register for signal <adv>.
+    Found 1-bit register for signal <we>.
+    Found 1-bit register for signal <rw>.
+    Found 1-bit register for signal <lb>.
+    Found 1-bit register for signal <ub>.
+    Found 16-bit register for signal <GND_8_o_dff_141_OUT>.
+    Found 2-bit register for signal <mode>.
+    Found 1-bit register for signal <oe>.
+    Found 9-bit register for signal <lineptr>.
+    Found 4-bit register for signal <writestate>.
+    Found 10-bit register for signal <outptr>.
+    Found 18-bit register for signal <prevaddr>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_166>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_167>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_168>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_169>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_170>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_171>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_172>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_173>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_174>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_175>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_176>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_177>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_178>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_179>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_180>.
+    Found 1-bit register for signal <GND_8_o_slowclock_DFF_181>.
+    Found 1-bit register for signal <slowclock>.
+    Found 1-bit register for signal <craddr<25>>.
+    Found 1-bit register for signal <craddr<24>>.
+    Found 1-bit register for signal <craddr<23>>.
+    Found 1-bit register for signal <craddr<22>>.
+    Found 1-bit register for signal <craddr<21>>.
+    Found 1-bit register for signal <craddr<20>>.
+    Found 1-bit register for signal <craddr<19>>.
+    Found 1-bit register for signal <craddr<18>>.
+    Found 1-bit register for signal <craddr<17>>.
+    Found 1-bit register for signal <craddr<16>>.
+    Found 1-bit register for signal <craddr<15>>.
+    Found 1-bit register for signal <craddr<14>>.
+    Found 1-bit register for signal <craddr<13>>.
+    Found 1-bit register for signal <craddr<12>>.
+    Found 1-bit register for signal <craddr<11>>.
+    Found 1-bit register for signal <craddr<10>>.
+    Found 1-bit register for signal <craddr<9>>.
+    Found 1-bit register for signal <craddr<8>>.
+    Found 1-bit register for signal <craddr<7>>.
+    Found 1-bit register for signal <craddr<6>>.
+    Found 1-bit register for signal <craddr<5>>.
+    Found 1-bit register for signal <craddr<4>>.
+    Found 1-bit register for signal <craddr<3>>.
+    Found 1-bit register for signal <craddr<2>>.
+    Found 1-bit register for signal <craddr<1>>.
+    Found 1-bit register for signal <craddr<0>>.
+    Found finite state machine <FSM_0> for signal <mode>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | slowclock (rising_edge)                        |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <writestate>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 1                                              |
+    | Clock              | slowclock (rising_edge)                        |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit adder for signal <inptr[9]_GND_8_o_add_14_OUT> created at line 1241.
+    Found 10-bit adder for signal <inptr[9]_GND_8_o_add_16_OUT> created at line 1241.
+    Found 10-bit adder for signal <inptr[9]_GND_8_o_add_18_OUT> created at line 1241.
+    Found 9-bit adder for signal <lineptr[8]_GND_8_o_add_21_OUT> created at line 1241.
+    Found 18-bit adder for signal <prevaddr[17]_GND_8_o_add_62_OUT> created at line 1241.
+    Found 10-bit adder for signal <outptr[9]_GND_8_o_add_66_OUT> created at line 1241.
+    Found 14-bit adder for signal <init[13]_GND_8_o_add_109_OUT> created at line 260.
+    Found 1-bit 3-to-1 multiplexer for signal <mode[1]_X_8_o_Mux_47_o> created at line 190.
+    Found 1-bit tristate buffer for signal <crdata<15>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<14>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<13>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<12>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<11>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<10>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<9>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<8>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<7>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<6>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<5>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<4>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<3>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<2>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<1>> created at line 159
+    Found 1-bit tristate buffer for signal <crdata<0>> created at line 159
+    Found 18-bit comparator not equal for signal <n0005> created at line 130
+    Found 10-bit comparator equal for signal <inptr[9]_outptr[9]_equal_16_o> created at line 152
+    Found 10-bit comparator equal for signal <inptr[9]_outptr[9]_equal_18_o> created at line 152
+    Found 10-bit comparator equal for signal <inptr[9]_outptr[9]_equal_20_o> created at line 152
+    Found 10-bit comparator equal for signal <n0097> created at line 226
+    Found 18-bit comparator not equal for signal <n0150> created at line 240
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 168 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred 166 Multiplexer(s).
+	inferred  16 Tristate(s).
+	inferred   2 Finite State Machine(s).
+Unit <ramcontroller> synthesized.
+
+Synthesizing Unit <nes_fsm>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/nes_fsm.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <buttons>.
+    Found 8-bit register for signal <button>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <nes_fsm> synthesized.
+
+Synthesizing Unit <marioPosition>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd".
+WARNING:Xst:647 - Input <button<5:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 6-bit register for signal <vY>.
+    Found 10-bit register for signal <pX>.
+    Found 9-bit register for signal <pY>.
+    Found 4-bit register for signal <vmax>.
+    Found 5-bit register for signal <vX>.
+    Found 11-bit subtractor for signal <GND_47_o_GND_47_o_sub_24_OUT> created at line 102.
+    Found 10-bit subtractor for signal <GND_47_o_GND_47_o_sub_29_OUT> created at line 106.
+    Found 10-bit subtractor for signal <GND_47_o_GND_47_o_sub_39_OUT> created at line 122.
+    Found 5-bit subtractor for signal <GND_47_o_unary_minus_48_OUT> created at line 136.
+    Found 13-bit adder for signal <n0152> created at line 75.
+    Found 12-bit adder for signal <n0078> created at line 75.
+    Found 12-bit adder for signal <n0158> created at line 76.
+    Found 11-bit adder for signal <n0079> created at line 76.
+    Found 5-bit adder for signal <vX[4]_GND_47_o_add_12_OUT> created at line 84.
+    Found 6-bit adder for signal <vY[5]_GND_47_o_add_15_OUT> created at line 90.
+    Found 10-bit adder for signal <lb[9]_GND_47_o_add_20_OUT> created at line 99.
+    Found 9-bit adder for signal <ub[8]_GND_47_o_add_34_OUT> created at line 111.
+    Found 5-bit subtractor for signal <vX[4]_GND_47_o_sub_10_OUT<4:0>> created at line 81.
+    Found 10-bit subtractor for signal <GND_47_o_GND_47_o_sub_26_OUT<9:0>> created at line 103.
+    Found 5-bit comparator lessequal for signal <vX[4]_GND_47_o_LessThan_9_o> created at line 80
+    Found 5-bit comparator greater for signal <GND_47_o_vX[4]_LessThan_12_o> created at line 83
+    Found 10-bit comparator greater for signal <n0026> created at line 98
+    Found 11-bit comparator greater for signal <n0032> created at line 102
+    Found 10-bit comparator greater for signal <n0038> created at line 106
+    Found 9-bit comparator greater for signal <n0042> created at line 110
+    Found 10-bit comparator equal for signal <GND_47_o_GND_47_o_equal_40_o> created at line 122
+    Found 5-bit comparator greater for signal <GND_47_o_vX[4]_LessThan_44_o> created at line 131
+    Found 5-bit comparator greater for signal <vX[4]_GND_47_o_LessThan_49_o> created at line 136
+    Summary:
+	inferred  13 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  26 Multiplexer(s).
+Unit <marioPosition> synthesized.
+
+Synthesizing Unit <boundary_setter>.
+    Related source file is "C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd".
+    Found 10-bit register for signal <lbs>.
+    Found 10-bit register for signal <rbs>.
+    Found 9-bit register for signal <ubs>.
+    Found 9-bit register for signal <dbs>.
+    Found 1-bit register for signal <presync>.
+    Found 9-bit adder for signal <mypos[8]_GND_48_o_add_5_OUT> created at line 1241.
+    Found 10-bit adder for signal <mxpos[9]_GND_48_o_add_11_OUT> created at line 1241.
+    Found 10-bit comparator greater for signal <n0000> created at line 60
+    Found 10-bit comparator greater for signal <n0002> created at line 60
+    Found 9-bit comparator greater for signal <vypos[8]_mypos[8]_LessThan_4_o> created at line 60
+    Found 9-bit comparator greater for signal <n0010> created at line 65
+    Found 9-bit comparator greater for signal <ubs[8]_vypos[8]_LessThan_20_o> created at line 92
+    Found 10-bit comparator greater for signal <lbs[9]_vxpos[9]_LessThan_23_o> created at line 95
+    Found 10-bit comparator greater for signal <vxpos[9]_rbs[9]_LessThan_26_o> created at line 98
+    Found 9-bit comparator greater for signal <vypos[8]_dbs[8]_LessThan_29_o> created at line 101
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  39 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <boundary_setter> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 36
+ 10-bit adder                                          : 11
+ 10-bit addsub                                         : 2
+ 10-bit subtractor                                     : 2
+ 11-bit adder                                          : 1
+ 11-bit subtractor                                     : 1
+ 12-bit adder                                          : 2
+ 13-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 21-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 2
+ 6-bit adder                                           : 1
+ 9-bit adder                                           : 7
+ 9-bit addsub                                          : 1
+# Registers                                            : 111
+ 1-bit register                                        : 73
+ 10-bit register                                       : 12
+ 14-bit register                                       : 1
+ 16-bit register                                       : 1
+ 18-bit register                                       : 1
+ 19-bit register                                       : 1
+ 2-bit register                                        : 1
+ 21-bit register                                       : 1
+ 36-bit register                                       : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 7
+ 9-bit register                                        : 9
+# Comparators                                          : 50
+ 10-bit comparator equal                               : 7
+ 10-bit comparator greater                             : 6
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 1
+ 18-bit comparator not equal                           : 2
+ 21-bit comparator greater                             : 19
+ 5-bit comparator greater                              : 3
+ 5-bit comparator lessequal                            : 1
+ 9-bit comparator equal                                : 2
+ 9-bit comparator greater                              : 5
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 220
+ 1-bit 2-to-1 multiplexer                              : 177
+ 1-bit 3-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 10
+ 16-bit 2-to-1 multiplexer                             : 1
+ 19-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 18
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 3
+ 9-bit 2-to-1 multiplexer                              : 7
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# FSMs                                                 : 2
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer/linebuffer.ngc>.
+Reading core <c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/writequeue/writequeue.ngc>.
+Loading core <linebuffer> for timing and area information for instance <ROW>.
+Loading core <writequeue> for timing and area information for instance <INPUT_BUFFER>.
+
+Synthesizing (advanced) Unit <pixel_clk>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <pixel_clk> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ramcontroller>.
+The following registers are absorbed into counter <inptr>: 1 register on signal <inptr>.
+The following registers are absorbed into counter <lineptr>: 1 register on signal <lineptr>.
+The following registers are absorbed into counter <outptr>: 1 register on signal <outptr>.
+Unit <ramcontroller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <test>.
+The following registers are absorbed into counter <ypos>: 1 register on signal <ypos>.
+The following registers are absorbed into counter <xpos>: 1 register on signal <xpos>.
+The following registers are absorbed into counter <NEScounter>: 1 register on signal <NEScounter>.
+The following registers are absorbed into counter <yinit>: 1 register on signal <yinit>.
+The following registers are absorbed into counter <xinit>: 1 register on signal <xinit>.
+Unit <test> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_timer>.
+The following registers are absorbed into counter <hcnt>: 1 register on signal <hcnt>.
+The following registers are absorbed into counter <vcnt>: 1 register on signal <vcnt>.
+Unit <vga_timer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 26
+ 10-bit adder                                          : 8
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 2
+ 11-bit subtractor                                     : 1
+ 12-bit adder                                          : 1
+ 13-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 2
+ 6-bit adder                                           : 1
+ 9-bit adder                                           : 6
+# Counters                                             : 11
+ 10-bit up counter                                     : 5
+ 10-bit updown counter                                 : 1
+ 2-bit up counter                                      : 1
+ 21-bit up counter                                     : 1
+ 9-bit up counter                                      : 2
+ 9-bit updown counter                                  : 1
+# Registers                                            : 361
+ Flip-Flops                                            : 361
+# Comparators                                          : 50
+ 10-bit comparator equal                               : 7
+ 10-bit comparator greater                             : 6
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 1
+ 18-bit comparator not equal                           : 2
+ 21-bit comparator greater                             : 19
+ 5-bit comparator greater                              : 3
+ 5-bit comparator lessequal                            : 1
+ 9-bit comparator equal                                : 2
+ 9-bit comparator greater                              : 5
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 228
+ 1-bit 2-to-1 multiplexer                              : 187
+ 1-bit 3-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 9
+ 16-bit 2-to-1 multiplexer                             : 1
+ 19-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 18
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 3
+ 9-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 2
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <Position/vmax_1> has a constant value of 1 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Position/vmax_2> has a constant value of 1 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <width_4> (without init value) has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <width_5> (without init value) has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <width_6> (without init value) has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <width_7> (without init value) has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <GND_8_o_slowclock_DFF_166> in Unit <ramcontroller> is equivalent to the following 15 FFs/Latches, which will be removed : <GND_8_o_slowclock_DFF_167> <GND_8_o_slowclock_DFF_168> <GND_8_o_slowclock_DFF_169> <GND_8_o_slowclock_DFF_170> <GND_8_o_slowclock_DFF_171> <GND_8_o_slowclock_DFF_172> <GND_8_o_slowclock_DFF_173> <GND_8_o_slowclock_DFF_174> <GND_8_o_slowclock_DFF_175> <GND_8_o_slowclock_DFF_176> <GND_8_o_slowclock_DFF_177> <GND_8_o_slowclock_DFF_178> <GND_8_o_slowclock_DFF_179> <GND_8_o_slowclock_DFF_180> <GND_8_o_slowclock_DFF_181> 
+INFO:Xst:2261 - The FF/Latch <width_0> in Unit <test> is equivalent to the following 3 FFs/Latches, which will be removed : <width_1> <width_2> <width_3> 
+INFO:Xst:2261 - The FF/Latch <NESpulse> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <pulse> 
+INFO:Xst:2261 - The FF/Latch <btnpre> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <led_5> 
+INFO:Xst:2261 - The FF/Latch <Position/vmax_0> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <Position/vmax_3> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <RAM/FSM_0> on signal <mode[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <RAM/FSM_1> on signal <writestate[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0
+ 0001  | 1
+-------------------
+INFO:Xst:2261 - The FF/Latch <NESlatch> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <latch> 
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    RAM/craddr_25 in unit <test>
+    RAM/craddr_24 in unit <test>
+    RAM/craddr_23 in unit <test>
+    RAM/craddr_22 in unit <test>
+    RAM/craddr_21 in unit <test>
+    RAM/craddr_20 in unit <test>
+    RAM/craddr_19 in unit <test>
+    RAM/craddr_18 in unit <test>
+
+
+Optimizing unit <test> ...
+
+Optimizing unit <vga_timer> ...
+
+Optimizing unit <nes_fsm> ...
+WARNING:Xst:1293 - FF/Latch <RAM/init_13> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_12> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_11> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_10> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_9> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_8> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_7> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_6> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_5> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <RAM/init_4> has a constant value of 0 in block <test>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <VGA_ADAPTER/CLOCKING/counter_0> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <NEScounter_0> 
+INFO:Xst:2261 - The FF/Latch <VGA_ADAPTER/CLOCKING/counter_1> in Unit <test> is equivalent to the following FF/Latch, which will be removed : <NEScounter_1> 
+INFO:Xst:3203 - The FF/Latch <VGA_ADAPTER/CLOCKING/counter_0> in Unit <test> is the opposite to the following FF/Latch, which will be removed : <RAM/slowclock> 
+INFO:Xst:3203 - The FF/Latch <RAM/mode_FSM_FFd1> in Unit <test> is the opposite to the following FF/Latch, which will be removed : <RAM/oe> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block test, actual ratio is 7.
+FlipFlop Position/vX_4 has been replicated 1 time(s)
+FlipFlop btnpre has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 442
+ Flip-Flops                                            : 442
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+---------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)     | Load  |
+-----------------------------------------------------------------+---------------------------+-------+
+CCLK                                                             | BUFGP                     | 222   |
+VGA_ADAPTER/VGA_ADAPTER/vsync                                    | BUFG                      | 51    |
+pulse                                                            | NONE(Controller/buttons_7)| 8     |
+latch                                                            | NONE(Controller/button_7) | 8     |
+VGA_ADAPTER/CLOCKING/counter_0                                   | BUFG                      | 105   |
+RAM/GND_8_o_offset[0]_AND_81_o(RAM/GND_8_o_offset[0]_AND_81_o1:O)| NONE(*)(RAM/craddr_18_LDC)| 1     |
+RAM/GND_8_o_offset[1]_AND_79_o(RAM/GND_8_o_offset[1]_AND_79_o1:O)| NONE(*)(RAM/craddr_19_LDC)| 1     |
+RAM/GND_8_o_offset[2]_AND_77_o(RAM/GND_8_o_offset[2]_AND_77_o1:O)| NONE(*)(RAM/craddr_20_LDC)| 1     |
+RAM/GND_8_o_offset[3]_AND_75_o(RAM/GND_8_o_offset[3]_AND_75_o1:O)| NONE(*)(RAM/craddr_21_LDC)| 1     |
+RAM/GND_8_o_offset[4]_AND_73_o(RAM/GND_8_o_offset[4]_AND_73_o1:O)| NONE(*)(RAM/craddr_22_LDC)| 1     |
+RAM/GND_8_o_offset[5]_AND_71_o(RAM/GND_8_o_offset[5]_AND_71_o1:O)| NONE(*)(RAM/craddr_23_LDC)| 1     |
+RAM/GND_8_o_offset[6]_AND_69_o(RAM/GND_8_o_offset[6]_AND_69_o1:O)| NONE(*)(RAM/craddr_24_LDC)| 1     |
+RAM/GND_8_o_offset[7]_AND_67_o(RAM/GND_8_o_offset[7]_AND_67_o1:O)| NONE(*)(RAM/craddr_25_LDC)| 1     |
+VGA_ADAPTER/CLOCKING/pclk                                        | BUFG                      | 54    |
+-----------------------------------------------------------------+---------------------------+-------+
+(*) These 8 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 8.364ns (Maximum Frequency: 119.566MHz)
+   Minimum input arrival time before clock: 4.980ns
+   Maximum output required time after clock: 4.895ns
+   Maximum combinational path delay: No path found
+
+=========================================================================

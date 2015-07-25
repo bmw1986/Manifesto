@@ -1,0 +1,62 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design test.ngc ...
+WARNING:NetListWriters:298 - No output is written to test.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus ubs[8]_GND_48_o_mux_32_OUT<8 : 0> on
+   block boundary_setter is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus rbs[9]_PWR_112_o_mux_31_OUT<9 : 0> on
+   block boundary_setter is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:304 - Port bus button<7 : 0> on block marioPosition is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus Mmux_pX[9]_GND_47_o_mux_26_OUT_rs_A[8 :
+   0] on block marioPosition is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus init[10 : 0] on block ramcontroller is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus inptr[9]_GND_8_o_add_18_OUT[7 : 3] on
+   block ramcontroller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus inptr[9]_GND_8_o_add_16_OUT[9 : 4] on
+   block ramcontroller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ylatch[8]_GND_4_o_add_14_OUT[6 : 2] on
+   block test is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus xlatch[9]_GND_4_o_add_12_OUT[9 : 2] on
+   block test is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_ylatch[8]_GND_4_o_add_14_OUT_cy[6 :
+   2] on block test is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_xlatch[9]_GND_4_o_add_12_OUT_cy[6 :
+   2] on block test is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file test.edif ...
+ngc2edif: Total memory usage is 78032 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design linebuffer.ngc ...
+WARNING:NetListWriters:298 - No output is written to linebuffer.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file linebuffer.edif ...
+ngc2edif: Total memory usage is 74960 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design writequeue.ngc ...
+WARNING:NetListWriters:298 - No output is written to writequeue.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file writequeue.edif ...
+ngc2edif: Total memory usage is 74512 kilobytes
+

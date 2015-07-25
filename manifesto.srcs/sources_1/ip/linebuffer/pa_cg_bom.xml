@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="linebuffer">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./summary.log" type="unknown" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x9349899D"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./linebuffer.xco" type="xco" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x2604AAC1"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./linebuffer/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./linebuffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./linebuffer/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./linebuffer/example_design/linebuffer_exdes.ucf" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x8915DFA1"></File>
+        <File name="./linebuffer/example_design/linebuffer_exdes.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x23321E52"></File>
+        <File name="./linebuffer/example_design/linebuffer_exdes.xdc" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x78E2D49A"></File>
+        <File name="./linebuffer/example_design/linebuffer_prod.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xB3FF3C2A"></File>
+        <File name="./linebuffer/implement/implement.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x7E35FE37"></File>
+        <File name="./linebuffer/implement/implement.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xE5DFC0E4"></File>
+        <File name="./linebuffer/implement/planAhead_ise.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xE8C6AA21"></File>
+        <File name="./linebuffer/implement/planAhead_ise.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xFFF6F6DD"></File>
+        <File name="./linebuffer/implement/planAhead_ise.tcl" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xC3A486E5"></File>
+        <File name="./linebuffer/implement/xst.prj" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xD338A02A"></File>
+        <File name="./linebuffer/implement/xst.scr" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xBD88F2C7"></File>
+        <File name="./linebuffer/simulation/addr_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./linebuffer/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xAC2A2B59"></File>
+        <File name="./linebuffer/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./linebuffer/simulation/checker.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x3EC35020"></File>
+        <File name="./linebuffer/simulation/data_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xD9F7C4A0"></File>
+        <File name="./linebuffer/simulation/functional/simcmds.tcl" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x2F0D2195"></File>
+        <File name="./linebuffer/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x6481370D"></File>
+        <File name="./linebuffer/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./linebuffer/simulation/functional/simulate_mti.do" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xD028A23F"></File>
+        <File name="./linebuffer/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./linebuffer/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x927CAB45"></File>
+        <File name="./linebuffer/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xE091486A"></File>
+        <File name="./linebuffer/simulation/functional/ucli_commands.key" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x29DC90BC"></File>
+        <File name="./linebuffer/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xA5C624DB"></File>
+        <File name="./linebuffer/simulation/functional/wave_mti.do" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x0EE9464A"></File>
+        <File name="./linebuffer/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xC74A0BED"></File>
+        <File name="./linebuffer/simulation/linebuffer_synth.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x224082BF"></File>
+        <File name="./linebuffer/simulation/linebuffer_tb.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x67DE17F1"></File>
+        <File name="./linebuffer/simulation/random.vhd" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./linebuffer/simulation/timing/simcmds.tcl" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x2F0D2195"></File>
+        <File name="./linebuffer/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x77277780"></File>
+        <File name="./linebuffer/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./linebuffer/simulation/timing/simulate_mti.do" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xF53E0D3D"></File>
+        <File name="./linebuffer/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./linebuffer/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x5D124DF9"></File>
+        <File name="./linebuffer/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x37B39D2D"></File>
+        <File name="./linebuffer/simulation/timing/ucli_commands.key" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x29DC90BC"></File>
+        <File name="./linebuffer/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0x3EEB179F"></File>
+        <File name="./linebuffer/simulation/timing/wave_mti.do" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xB21C4D58"></File>
+        <File name="./linebuffer/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Sat Jul 25 00:59:51 GMT 2015" checksum="0xECC6BB85"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./linebuffer.ngc" type="ngc" timestamp="Sat Jul 25 01:00:35 GMT 2015" checksum="0x6555D330"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./linebuffer.veo" type="veo" timestamp="Sat Jul 25 01:00:36 GMT 2015" checksum="0xDF732211"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./linebuffer.v" type="verilog" timestamp="Sat Jul 25 01:00:36 GMT 2015" checksum="0x64C51AB4"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./linebuffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jul 25 01:00:36 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./linebuffer.asy" type="asy" timestamp="Sat Jul 25 01:00:39 GMT 2015" checksum="0x931E0A46"></File>
+        <File name="./summary.log" type="unknown" timestamp="Sat Jul 25 01:00:39 GMT 2015" checksum="0x9349899D"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./linebuffer_xmdf.tcl" type="tclXmdf" timestamp="Sat Jul 25 01:00:39 GMT 2015" checksum="0x30328159"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./linebuffer.gise" type="ignore" timestamp="Sat Jul 25 01:00:42 GMT 2015" checksum="0xBDACCE72"></File>
+        <File name="./linebuffer.xise" type="ignore" timestamp="Sat Jul 25 01:00:42 GMT 2015" checksum="0x5FC8E171"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./linebuffer.gise" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0x909D3CC1"></File>
+        <File name="./linebuffer.xise" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0x1C00528A"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./linebuffer_flist.txt" type="ignore" timestamp="Sat Jul 25 01:00:44 GMT 2015" checksum="0xBFAF124F"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

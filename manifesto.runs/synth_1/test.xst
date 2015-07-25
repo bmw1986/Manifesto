@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn test.prj
+-top test
+-p xc6slx25csg324-3
+-ofn test.ngc
+-sd {"c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/writequeue" "c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer"}
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

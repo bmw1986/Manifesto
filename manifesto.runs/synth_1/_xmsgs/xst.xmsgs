@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 60: Actual for formal port <arg fmt="%s" index="1">mxpos</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 61: Actual for formal port <arg fmt="%s" index="1">mypos</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/vga_gen.vhd" Line 90: <arg fmt="%s" index="1">pclk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer/linebuffer.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">linebuffer</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"c:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/writequeue/writequeue.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">writequeue</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 102: <arg fmt="%s" index="1">yaddr</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 152: <arg fmt="%s" index="1">outptr</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 264: <arg fmt="%s" index="1">init</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 265: <arg fmt="%s" index="1">offset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/ramcontroller.vhd" Line 159: Assignment to <arg fmt="%s" index="1">waitdelay</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 60: <arg fmt="%s" index="1">mxpos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 65: <arg fmt="%s" index="1">mypos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 70: <arg fmt="%s" index="1">mypos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/boundary_setter.vhd" Line 75: <arg fmt="%s" index="1">mxpos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 75: <arg fmt="%s" index="1">px</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/new/marioPosition.vhd" Line 76: <arg fmt="%s" index="1">py</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/imports/sources_1/imports/sources_1/imports/vga3/test.vhd" Line 444: <arg fmt="%s" index="1">writemode</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">btn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">button&lt;5:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Position/vmax_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Position/vmax_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">width_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">width_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">width_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">width_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">GND_8_o_slowclock_DFF_166</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ramcontroller</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;GND_8_o_slowclock_DFF_167&gt; &lt;GND_8_o_slowclock_DFF_168&gt; &lt;GND_8_o_slowclock_DFF_169&gt; &lt;GND_8_o_slowclock_DFF_170&gt; &lt;GND_8_o_slowclock_DFF_171&gt; &lt;GND_8_o_slowclock_DFF_172&gt; &lt;GND_8_o_slowclock_DFF_173&gt; &lt;GND_8_o_slowclock_DFF_174&gt; &lt;GND_8_o_slowclock_DFF_175&gt; &lt;GND_8_o_slowclock_DFF_176&gt; &lt;GND_8_o_slowclock_DFF_177&gt; &lt;GND_8_o_slowclock_DFF_178&gt; &lt;GND_8_o_slowclock_DFF_179&gt; &lt;GND_8_o_slowclock_DFF_180&gt; &lt;GND_8_o_slowclock_DFF_181&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">width_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;width_1&gt; &lt;width_2&gt; &lt;width_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">NESpulse</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pulse&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">btnpre</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;led_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Position/vmax_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Position/vmax_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">NESlatch</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;latch&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="new" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM/init_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_ADAPTER/CLOCKING/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;NEScounter_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_ADAPTER/CLOCKING/counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;NEScounter_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_ADAPTER/CLOCKING/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RAM/slowclock&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">RAM/mode_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">test</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RAM/oe&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -5,6 +5,12 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="info" file="coreutil" num="879" delta="new" >Reloading repositories because of a changed repository configuration.
+</msg>
+
+<msg type="info" file="coreutil" num="877" delta="new" >Reloaded all repositories after a full directory search.
+</msg>
+
 <msg type="info" file="sim" num="172" delta="new" >Generating IP...
 </msg>
 
@@ -14,4 +20,14 @@
 <msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;linebuffer&apos;...</arg>
 </msg>
 
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file C:/Users/Ben Petroski/Documents/manifesto/manifesto.srcs/sources_1/ip/linebuffer/tmp/_cg/linebuffer/doc/blk_mem_gen_v7_3_vinfo.html with file from view xilinx_documentation</arg>
+</msg>
+
+<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
+</msg>
+
+<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
+</msg>
+
 </messages>
+

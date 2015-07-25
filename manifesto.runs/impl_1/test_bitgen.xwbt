@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\Users\Ben Petroski\Documents\manifesto\manifesto.runs\impl_1\test_routed.ncd
+OUTFILE=C:\Users\Ben Petroski\Documents\manifesto\manifesto.runs\impl_1\test.bit
+FAMILY=Spartan6
+PART=xc6slx25-3csg324
+WORKINGDIR=C:\Users\Ben Petroski\Documents\manifesto\manifesto.runs\impl_1
+LICENSE=WebPack
+USER_INFO=210713624_0_0_031
