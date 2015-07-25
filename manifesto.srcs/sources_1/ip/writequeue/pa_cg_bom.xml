@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="writequeue">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sat Jul 25 00:53:10 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./summary.log" type="unknown" timestamp="Sat Jul 25 00:51:48 GMT 2015" checksum="0xEDC0CAF8"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./writequeue.xco" type="xco" timestamp="Sat Jul 25 00:51:49 GMT 2015" checksum="0x00A869B5"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./writequeue/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./writequeue/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./writequeue/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sun Oct 13 18:11:47 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./writequeue/example_design/writequeue_exdes.ucf" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x8915DFA1"></File>
+        <File name="./writequeue/example_design/writequeue_exdes.vhd" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0xFA3C1418"></File>
+        <File name="./writequeue/example_design/writequeue_exdes.xdc" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x78E2D49A"></File>
+        <File name="./writequeue/example_design/writequeue_prod.vhd" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0xBFC0ECFE"></File>
+        <File name="./writequeue/implement/implement.bat" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x35A627AE"></File>
+        <File name="./writequeue/implement/implement.sh" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x6ED8E6C1"></File>
+        <File name="./writequeue/implement/planAhead_ise.bat" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x8F0C9F4D"></File>
+        <File name="./writequeue/implement/planAhead_ise.sh" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x983CC3B1"></File>
+        <File name="./writequeue/implement/planAhead_ise.tcl" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x25C633B4"></File>
+        <File name="./writequeue/implement/xst.prj" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x296AB4C3"></File>
+        <File name="./writequeue/implement/xst.scr" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0xBF864985"></File>
+        <File name="./writequeue/simulation/addr_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./writequeue/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xA62D8E7E"></File>
+        <File name="./writequeue/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./writequeue/simulation/checker.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x3EC35020"></File>
+        <File name="./writequeue/simulation/data_gen.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xD9F7C4A0"></File>
+        <File name="./writequeue/simulation/functional/simcmds.tcl" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x00ABE0E9"></File>
+        <File name="./writequeue/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x382F0B45"></File>
+        <File name="./writequeue/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./writequeue/simulation/functional/simulate_mti.do" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x975AB79D"></File>
+        <File name="./writequeue/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./writequeue/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xA06FD33B"></File>
+        <File name="./writequeue/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xB0C1EF0B"></File>
+        <File name="./writequeue/simulation/functional/ucli_commands.key" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x24249CE4"></File>
+        <File name="./writequeue/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0xA2A84BE2"></File>
+        <File name="./writequeue/simulation/functional/wave_mti.do" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x44FCDD2B"></File>
+        <File name="./writequeue/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x5181B2EB"></File>
+        <File name="./writequeue/simulation/random.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./writequeue/simulation/timing/simcmds.tcl" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x00ABE0E9"></File>
+        <File name="./writequeue/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x0B908878"></File>
+        <File name="./writequeue/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./writequeue/simulation/timing/simulate_mti.do" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x82A2744C"></File>
+        <File name="./writequeue/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./writequeue/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x4E763CCD"></File>
+        <File name="./writequeue/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x9E91E024"></File>
+        <File name="./writequeue/simulation/timing/ucli_commands.key" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x24249CE4"></File>
+        <File name="./writequeue/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x398578A6"></File>
+        <File name="./writequeue/simulation/timing/wave_mti.do" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x78226D3C"></File>
+        <File name="./writequeue/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x2ED733CF"></File>
+        <File name="./writequeue/simulation/writequeue_synth.vhd" type="ignore" timestamp="Sat Jul 25 00:51:51 GMT 2015" checksum="0x04C535A3"></File>
+        <File name="./writequeue/simulation/writequeue_tb.vhd" type="ignore" timestamp="Sat Jul 25 00:51:50 GMT 2015" checksum="0x51A499F9"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./writequeue.ngc" type="ngc" timestamp="Sat Jul 25 00:52:41 GMT 2015" checksum="0xBD646886"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Sat Jul 25 00:53:11 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sat Jul 25 00:53:11 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./writequeue.veo" type="veo" timestamp="Sat Jul 25 00:52:44 GMT 2015" checksum="0xC81925D3"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./writequeue.v" type="verilog" timestamp="Sat Jul 25 00:52:44 GMT 2015" checksum="0xFE39AC60"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./writequeue/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jul 25 00:52:45 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./summary.log" type="unknown" timestamp="Sat Jul 25 00:52:50 GMT 2015" checksum="0xEDC0CAF8"></File>
+        <File name="./writequeue.asy" type="asy" timestamp="Sat Jul 25 00:52:50 GMT 2015" checksum="0x93EDE422"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./writequeue_xmdf.tcl" type="tclXmdf" timestamp="Sat Jul 25 00:52:50 GMT 2015" checksum="0x740A0266"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./writequeue.gise" type="ignore" timestamp="Sat Jul 25 00:53:01 GMT 2015" checksum="0x707DDA3F"></File>
+        <File name="./writequeue.xise" type="ignore" timestamp="Sat Jul 25 00:53:01 GMT 2015" checksum="0xACDC7EF0"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./writequeue.gise" type="ignore" timestamp="Sat Jul 25 00:53:06 GMT 2015" checksum="0x9A0E363B"></File>
+        <File name="./writequeue.xise" type="ignore" timestamp="Sat Jul 25 00:53:06 GMT 2015" checksum="0xAE5461E5"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Sat Jul 25 00:53:11 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./writequeue_flist.txt" type="ignore" timestamp="Sat Jul 25 00:53:07 GMT 2015" checksum="0x7F958B23"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>
